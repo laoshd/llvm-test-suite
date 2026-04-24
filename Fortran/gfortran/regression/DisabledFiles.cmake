@@ -244,6 +244,17 @@ file(GLOB UNIMPLEMENTED_FILES CONFIGURE_DEPENDS
   coarray_poly_4.f90
   intent_out_7.f90
 
+  # unimplemented: non-ALLOCATABLE SAVE Coarray outside the main program
+  coarray_21.f90
+  coarray_23.f90
+  pr71688.f90
+  pr90002.f90
+  pr95827.f90
+
+  # unimplemented: Coarray with an allocatable direct component and/or requiring finalization
+  coarray_46.f90
+  coarray_alloc_comp_4.f08
+
   # unimplemented: coarray in procedure interface
   coarray_29_1.f90
   coarray_32.f90
