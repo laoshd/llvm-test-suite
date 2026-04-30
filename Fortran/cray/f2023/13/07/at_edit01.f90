@@ -1,5 +1,5 @@
 ! Self-checking execution tests for the AT edit descriptor
-! (Fortran 2023 Standard, 13.7.2).
+! (Fortran 2023 Standard, 13.7.4).
 !
 ! The AT edit descriptor outputs CHARACTER data with trailing blanks
 ! removed (trimmed). It does not accept a width field.
